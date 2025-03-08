@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main(){
+double h, b, area;
+scanf("%d %d",h,b);
+area = (h*b)/2;
+printf("%.2f",area);
+return 0;
+}
